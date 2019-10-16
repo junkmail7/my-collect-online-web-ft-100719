@@ -1,6 +1,6 @@
 def my_each(array)
     i = 0
-    collect
+    collect=[]
     while i != array.length
       collect << yield(array[i])
       i+=1
